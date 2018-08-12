@@ -1,0 +1,31 @@
+.header-icon {
+	height: 50px;
+	margin: 10px;
+}
+textarea {
+   resize: none;
+}
+.chat-list{
+	height:300px;
+	overflow:hidden; 
+	overflow-y:scroll;
+}
+.voiceButton{
+    border-radius: 100%;
+}
+/* html body{
+	height: 100%;
+    overflow: hidden;
+} */
+.gif {
+	opacity:0.7;
+	top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+	background: url('/static/resources/siri.gif');
+	background-size: cover;
+    background-position: center;
+	z-index: 10;
+}

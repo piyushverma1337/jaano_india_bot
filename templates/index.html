@@ -1,0 +1,66 @@
+<html>
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+	<!-- Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link href="/static/css/style.css" rel="stylesheet"/>
+	<script src="/static/js/custom.js"></script>
+	<head>
+	<title>Jano India</title>
+	</head>
+	<body>
+		<!-- overlay -->
+		<div id="overlay" class="gif">
+		</div>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">
+				<img src="https://cdn3.iconfinder.com/data/icons/countries-and-continents/512/India-512.png" class="header-icon"></img>
+				</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a id="info" class="waves-effect waves-light modal-trigger"><i class="large material-icons">help_outline</i></a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Modal Structure -->
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Info</h4>
+				<p id="info_text">A bunch of text</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-close waves-effect waves-green btn-flat">Okay</a>
+			</div>
+		</div>
+		<div class="card" style="margin:10px;">
+			<div style="padding: 20px" id="chatDiv">
+			<ul id="chatList" class="collection chat-list">
+			</ul>		
+			</div>
+			<div class="row" style="margin:50px" id="chatBoxDiv">
+				  <form method="post" id="chatbot-form">
+					<div class="input-field col s10">
+					  <i class="material-icons prefix">mode_edit</i>
+					  <input id="messageText" class="materialize-textarea"></input>
+					</div>
+					<button id="chatbot-form-btn" class="btn waves-effect waves-light" style="margin:5px; background-color:#f33e42" type="submit" class="col s2">Submit
+					</button>
+					<button id="talk" class="btn-floating btn-large waves-effect waves-light green" title="To stop recognition click anywhere." type="submit" class="col s2">
+					<i class="large material-icons">mic</i>
+					</button>
+				  </form>
+			  </div>
+		</div>
+		<div id="tablediv" class="card" style="margin:10px; padding-left: 10px; padding-right: 10px;">
+			<table id="table" class="striped">
+				<thead></thead>
+				<tbody></tbody>
+			</table>
+		</div>
+		</div>
+	</body>
+</html>
