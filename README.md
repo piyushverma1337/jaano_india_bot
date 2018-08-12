@@ -1,2 +1,2 @@
-# jano_india_bot
+# jaano_india_bot
 Natural Language understanding speech recognizing bot
