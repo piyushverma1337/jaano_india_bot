@@ -198,7 +198,7 @@ window.onload = function () {
 	//onload
 	$("#overlay").hide();
 	//$("#tablediv").hide();
-	welcome_text = "Hi! I am the Jano India bot. May i know your name please?";
+	welcome_text = "Hi! I am the Jaano India bot. May i know your name please?";
 	speak(welcome_text, () => M.toast({
 			html: 'For help click "?"'
 		}));
