@@ -9,7 +9,7 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 import postgres
 
 app = Flask(__name__)
-#port = int(os.getenv("PORT"))
+port = int(os.getenv("PORT"))
 
 english_bot = ChatBot("indiana_janos")
 english_bot.set_trainer(ChatterBotCorpusTrainer)
@@ -41,5 +41,4 @@ def ask():
 
 
 if __name__ == "__main__":
-	#app.run(host='0.0.0.0',port=port,debug=False)
-	app.run(host='0.0.0.0',debug=True)
+	app.run(host='0.0.0.0',port=port,debug=False)

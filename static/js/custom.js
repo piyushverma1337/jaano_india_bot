@@ -198,10 +198,6 @@ window.onload = function () {
 	//onload
 	$("#overlay").hide();
 	//$("#tablediv").hide();
-	document.addEventListener('DOMContentLoaded', function () {
-		var elems = document.querySelectorAll('.tooltipped');
-		var instances = M.Tooltip.init(elems, options);
-	});
 	welcome_text = "Hi! I am the Jano India bot. May i know your name please?";
 	speak(welcome_text, () => M.toast({
 			html: 'For help click "?"'
